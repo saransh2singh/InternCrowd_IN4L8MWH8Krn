@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.06em;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    background: #dbdada;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.pad{
+    color: #0eb582;
+    font-size: 1.4em;
+    padding: 10px;
+}
+.logo--text{
+    font-size: 1.3em;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+}
+li{
+    padding: 14px;
+}
+.first{
+background: url("https://interncrowd.in/images/home-1-1.png");
+   background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+margin-bottom: 4em;
+padding: 4em 0 8em 0;
+}
+/* .f{
+    background: url("https://interncrowd.in/images/home-1-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4em 0 8em 0;
+} */
+.width{
+    width: 50%;
+}
+.box{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 2em;
+}
+.text{
+    width: 50%;
+    margin-left: 8em;
+margin-top: 8em;
+}
+.main-img{
+    width: 49em;
+}
+/* main{
+    margin: 5em;
+} */
+.main--text{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+.sub{
+    font-size: 1.3em;
+}
+button{
+    color: #0eb582;
+    padding: 15px;
+    background-color: #f0fdfa;
+    border-radius: 2em;
+    /* font-size: 0.9em; */
+    border : 0.1rem solid #0eb582;
+    cursor: pointer;
+    margin-top: 2em;
+}
+button:hover{
+    background: #0eb582;
+    color: #fff;
+}
+.services{
+    font-size: 1.6em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    line-height: 2em;
+}
+.diff-services{
+    width: 16em;
+    padding: 2em;
+    margin: 1em;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    cursor: pointer;
+}
+.diff-services:hover{
+    background: #0eb582;
+    color: white;
+}
+.para{
+    margin-top: 1em;
+}
+footer{
+    padding-left: 6em;
+    padding-right: 8em;
+    display: flex;
+    text-align: center;
+    font-size: 1.1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #f0fdfa;
+    padding: 20px;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    letter-spacing: 0.06em;
+    line-height: 2em;
+    margin-top: 5em;
+}
+.foot{
+    width: 35em;
+}
+.foot-head{
+    font-size: 1.2em;
+}
+.mb{
+    margin-bottom: 3em;
+}
+.part-1{
+    margin-top: 1.4em;
+    color: gray;
+}
+.part-2,.part-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4em;
+}
+.gray{
+    color: #777;
+    padding-bottom: 1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 950px) {
+    .first { 
+        padding: 3em 0px 0em 0px;
+    }
+ }
+
+ @media (max-width: 760px) {
+    .first { 
+        padding: 0;
+    }
+ }
+ @media (max-width: 760px) {
+    .first { 
+        background: none;
+    }
+    .text{
+        width: 100%;
+        margin-left: 2em;
+    }
+ }
+ @media (max-width: 536px){
+    ul{
+        display: none;
+    }
+ }
